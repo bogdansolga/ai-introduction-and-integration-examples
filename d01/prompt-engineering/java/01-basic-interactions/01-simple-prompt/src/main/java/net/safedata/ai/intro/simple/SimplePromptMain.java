@@ -1,4 +1,4 @@
-package ro.devcon.ai.workshop.simple;
+package net.safedata.ai.intro.simple;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.boot.ApplicationRunner;
@@ -8,7 +8,7 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
-import ro.devcon.ai.workshop.common.config.LLMConfig;
+import net.safedata.ai.intro.common.config.LLMConfig;
 
 @SpringBootApplication
 @Import(LLMConfig.class)

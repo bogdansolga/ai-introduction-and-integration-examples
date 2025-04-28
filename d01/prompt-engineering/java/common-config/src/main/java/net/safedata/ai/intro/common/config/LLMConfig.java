@@ -1,4 +1,4 @@
-package ro.devcon.ai.workshop.common.config;
+package net.safedata.ai.intro.common.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.document.MetadataMode;

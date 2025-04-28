@@ -1,4 +1,4 @@
-package ro.devcon.ai.workshop.template;
+package net.safedata.ai.intro.template;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.prompt.Prompt;
@@ -10,7 +10,7 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
-import ro.devcon.ai.workshop.common.config.LLMConfig;
+import net.safedata.ai.intro.common.config.LLMConfig;
 
 import java.util.Map;
 

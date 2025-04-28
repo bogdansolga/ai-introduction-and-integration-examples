@@ -1,11 +1,10 @@
-package ro.devcon.ai.workshop.role;
+package net.safedata.ai.intro.role;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.Message;
 import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -13,10 +12,9 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
-import ro.devcon.ai.workshop.common.config.LLMConfig;
+import net.safedata.ai.intro.common.config.LLMConfig;
 
 import java.util.List;
-import java.util.Map;
 
 @SpringBootApplication
 @Import(LLMConfig.class)
