@@ -1,0 +1,1 @@
+../../../documentation/02-template-and-context-management/04-prompt-with-structured-template/README.md

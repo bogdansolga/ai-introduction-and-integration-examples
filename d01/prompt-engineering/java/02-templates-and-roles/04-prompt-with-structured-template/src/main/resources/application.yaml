@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: off
+    org:
+      springframework: warn
+
+  pattern:
+    # special characters need to be escaped / quoted
+    console: '%clr([%thread] [%date{HH:mm:ss.SSS}]){faint} %clr(%2p) %clr(%-40.40logger{36}){cyan} %m%n%wex'
+
+spring:
+  ai:
+    openai:
+      api-key: ${OPEN-AI.API-KEY}

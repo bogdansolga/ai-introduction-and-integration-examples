@@ -31,13 +31,13 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+# .env*
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-d01/llms-overview-visualizer-next/next-env.d.ts
+d01/llms-overview-visualizer/next-env.d.ts
 
 .idea

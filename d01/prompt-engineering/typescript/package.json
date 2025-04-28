@@ -1,0 +1,15 @@
+{
+  "name": "typescript-prompting-examples",
+  "version": "1.0.0",
+  "description": "The TypeScript prompting examples",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node": "^22.15.0",
+    "openai": "^4.96.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,10 @@
+flowchart TD
+    A[Data] --> B[Pre-processing / Feature Engineering]
+    B --> C[Training & Optimization]
+    C -->|produces trained weights| D[Trained Model]
+    D --> E[Evaluation & Validation]
+    E -->|approved model| F[Deployment & Integration]
+    F --> G[Inference / Prediction]
+    G --> H[Monitoring & Feedback]
+    H -- "drift / new data" --> A
+    H -- "trigger re-training" --> C
