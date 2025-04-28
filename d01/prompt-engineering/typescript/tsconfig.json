@@ -1,5 +1,7 @@
 {
-  "include": ["01-basic-interactions", "02-template-and-context-management"],
+  "include": ["01-basic-interactions",
+    "02-template-and-roles"
+  ],
   "compilerOptions": {
     "target": "es2020",
     "lib": ["es2020"],
