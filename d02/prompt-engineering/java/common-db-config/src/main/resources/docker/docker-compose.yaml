@@ -1,0 +1,18 @@
+services:
+  db:
+    hostname: pgvector
+    image: pgvector/pgvector:pg17
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      - POSTGRES_DB=ai_workshop
+      - POSTGRES_USER=ai_workshop_admin
+      - POSTGRES_PASSWORD=sU5YgsbPbRx2ZYn
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:

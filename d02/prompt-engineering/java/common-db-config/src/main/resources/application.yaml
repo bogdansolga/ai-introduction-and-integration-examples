@@ -1,0 +1,38 @@
+logging:
+  level:
+    root: off
+    org:
+      springframework: warn
+
+  pattern:
+    # special characters need to be escaped / quoted
+    console: '%clr([%thread] [%date{HH:mm:ss.SSS}]){faint} %clr(%2p) %clr(%-40.40logger{36}){cyan} %m%n%wex'
+server:
+  tomcat:
+    threads:
+      max: 10
+      min-spare: 2
+
+spring:
+  ai:
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1536
+    openai:
+      api-key: ${OPEN-AI.API-KEY}
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    name: ai_workshop
+    password: "sU5YgsbPbRx2ZYn"
+    username: ai_workshop_admin
+    url: jdbc:postgresql://localhost:5432/${spring.datasource.name}
+
+  sql:
+    init:
+      platform: postgres
+      schema-locations: 'classpath:sql/schema.sql'
+      # to be set to 'always' when the bootstrapping of the local database is needed
+      mode: never

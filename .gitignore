@@ -40,4 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 d01/llms-overview-visualizer/next-env.d.ts
 
+# Idea
+*.iml
+*.ipr
+*.iws
 .idea
+**/target

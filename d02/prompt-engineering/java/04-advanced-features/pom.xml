@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.safedata</groupId>
+        <artifactId>ai.intro.and.integration.day2</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>04-advanced-features</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>09-prompt-with-function-calling</module>
+        <module>10-prompt-with-streaming-rag</module>
+        <module>11-prompt-with-chained-reasoning</module>
+    </modules>
+</project>

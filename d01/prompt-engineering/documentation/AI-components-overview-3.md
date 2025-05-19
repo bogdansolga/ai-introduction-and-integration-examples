@@ -1,4 +1,4 @@
-Great question! The field of Artificial Intelligence (AI) is broad, but most systems are built upon several core components that work together. Below is an outline of the **core AI components** and **their relationships**:
+reat question! The field of Artificial Intelligence (AI) is broad, but most systems are built upon several core components that work together. Below is an outline of the **core AI components** and **their relationships**:
 
 ---
 
